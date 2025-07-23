@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css link here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- font awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        color1: '#E95A08',
+                        color2:'#8987A1'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="index.css">
+    <title>Flower market</title>
+</head>
+
+<body>
+    <header class="md:max-w-6xl max-w-sm mx-auto">
+        <!-- navbar start  -->
+        <nav class="flex justify-between mt-4">
+            <img class="w-[63px] px-2 md:px-0 md:w-[135px]" src="assets/logo.png" alt="">
+            <ul class="flex gap-10 items-center">
+                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">Home</a></li>
+                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">Shop</a></li>
+                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">About us</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>

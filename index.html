@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower market</title>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- tailwind css link here -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -25,7 +30,7 @@
     </script>
     <!-- css link  -->
     <link rel="stylesheet" href="index.css">
-    <title>Flower market</title>
+   
 </head>
 
 <body>
@@ -34,12 +39,21 @@
         <nav class="flex justify-between mt-4">
             <img class="w-[63px] px-2 md:px-0 md:w-[135px]" src="assets/logo.png" alt="">
             <ul class="flex gap-10 items-center">
-                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">Home</a></li>
-                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">Shop</a></li>
-                <li><a class="text-color2 hover:text-black hover:font-semibold hidden md:block" href="">About us</a></li>
+                <li><a class="text-color2 hover:text-black font-semibold hidden md:block" href="">Home</a></li>
+                <li><a class="text-color2 hover:text-black font-semibold hidden md:block" href="">Shop</a></li>
+                <li><a class="text-color2 hover:text-black font-semibold hidden md:block" href="">About us</a></li>
                 <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
             </ul>
         </nav>
+        <!-- banner start  -->
+         <section class="flex flex-col md:flex-row-reverse items-end mt-2 md:mt-40">
+            <div><img class="md:max-w-xl max-w-sm" src="assets/hero-flower.png" alt=""></div>
+            <div class="md:max-w-xl max-w-sm mt-5 mx-2 md:mx-0 md:mt-0 ">
+                <h2 class="uppercase text-[24px]/[30px]  md:text-[65px]/[75px] font-bold banner">Always <span class="text-color1">Fresh <br> Flowers</span></h2>
+                <p class="text-color2 text-[14px] md:text-[22px] mt-2 banner-p">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+           
+         </section>
     </header>
     <main></main>
     <footer></footer>

@@ -8,9 +8,7 @@
     background-image: url(assets/deal-bloom.png) ;
   filter: brightness(0.8);
 }
-/* .deal-img-1 div h3{
-    filter: brightness(1.1);
-} */
+
  .deal-img-2{
     background-image: url(assets/deal-ana.png);
     filter: brightness(0.8);
@@ -25,4 +23,8 @@
     background-image: url(assets/news-letter-bg.png);
     background-size: cover;
   
+}
+.footer-img img{
+    height: 36px;
+    width: 36px;
 }
